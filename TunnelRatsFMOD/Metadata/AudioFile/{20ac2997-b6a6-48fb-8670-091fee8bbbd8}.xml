@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{20ac2997-b6a6-48fb-8670-091fee8bbbd8}">
+		<property name="assetPath">
+			<value>Player Movement/Footsteps/Wood/Walk/Carpet/Footsteps-Wood-Carpet-010.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.33566666666666667</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{e3622c02-0689-434d-9688-3e1530eb1182}</destination>
+		</relationship>
+	</object>
+</objects>

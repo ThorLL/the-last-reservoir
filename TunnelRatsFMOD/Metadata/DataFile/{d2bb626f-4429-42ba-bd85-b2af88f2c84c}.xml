@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="DataFile" id="{d2bb626f-4429-42ba-bd85-b2af88f2c84c}">
+		<property name="assetPath">
+			<value>SFX/SmallestDoors/SMetalDoorsOpen-003.wav.meta</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{e3622c02-0689-434d-9688-3e1530eb1182}</destination>
+		</relationship>
+	</object>
+</objects>

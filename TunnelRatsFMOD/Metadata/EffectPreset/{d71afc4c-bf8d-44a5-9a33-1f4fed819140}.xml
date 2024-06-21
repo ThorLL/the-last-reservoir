@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EffectPreset" id="{d71afc4c-bf8d-44a5-9a33-1f4fed819140}">
+		<property name="name">
+			<value>DistMed</value>
+		</property>
+		<relationship name="folder">
+			<destination>{19804689-5a70-4490-8403-9383fe64a1f9}</destination>
+		</relationship>
+		<relationship name="effect">
+			<destination>{7ccc30b9-d615-4b46-aa68-911775c306d2}</destination>
+		</relationship>
+	</object>
+	<object class="GainEffect" id="{7ccc30b9-d615-4b46-aa68-911775c306d2}">
+		<property name="bypass">
+			<value>true</value>
+		</property>
+		<relationship name="automators">
+			<destination>{9cb1522d-44d3-4bce-af68-c5ed88245573}</destination>
+		</relationship>
+	</object>
+	<object class="Automator" id="{9cb1522d-44d3-4bce-af68-c5ed88245573}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>gain</value>
+		</property>
+		<relationship name="automationCurves">
+			<destination>{9cf38cd2-be7f-4b9a-9f1c-bc93da3c904e}</destination>
+		</relationship>
+	</object>
+	<object class="AutomationCurve" id="{9cf38cd2-be7f-4b9a-9f1c-bc93da3c904e}">
+		<relationship name="parameter">
+			<destination>{31fa291e-da0c-4f19-b94f-556a854244d2}</destination>
+		</relationship>
+		<relationship name="automationPoints">
+			<destination>{72cb1504-3370-4dcf-83d9-ec74f2ed2575}</destination>
+			<destination>{874d0012-b9af-4008-8955-026a923aa081}</destination>
+		</relationship>
+	</object>
+	<object class="AutomationPoint" id="{72cb1504-3370-4dcf-83d9-ec74f2ed2575}">
+		<property name="position">
+			<value>60</value>
+		</property>
+		<property name="value">
+			<value>-80</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{874d0012-b9af-4008-8955-026a923aa081}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+		<property name="curveShape">
+			<value>0.5</value>
+		</property>
+		<property name="isSCurve">
+			<value>true</value>
+		</property>
+	</object>
+</objects>

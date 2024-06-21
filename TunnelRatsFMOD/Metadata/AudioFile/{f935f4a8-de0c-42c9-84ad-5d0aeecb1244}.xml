@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{f935f4a8-de0c-42c9-84ad-5d0aeecb1244}">
+		<property name="assetPath">
+			<value>SFX/Cup/Cup_Impact_09.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.82158730158730153</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{e3622c02-0689-434d-9688-3e1530eb1182}</destination>
+		</relationship>
+	</object>
+</objects>

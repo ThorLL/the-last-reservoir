@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{e64e3086-ccb6-4060-9e66-8bd4541f3d6e}">
+		<property name="assetPath">
+			<value>Player Movement/Footsteps/Jump Land/Jump_Land_Leaves-001.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.66364583333333338</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{e3622c02-0689-434d-9688-3e1530eb1182}</destination>
+		</relationship>
+	</object>
+</objects>

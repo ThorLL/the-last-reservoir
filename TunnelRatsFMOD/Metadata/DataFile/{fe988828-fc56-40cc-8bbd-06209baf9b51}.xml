@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="DataFile" id="{fe988828-fc56-40cc-8bbd-06209baf9b51}">
+		<property name="assetPath">
+			<value>SFX/Connector Doors/OpenDoorHiss-006.wav.meta</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{e3622c02-0689-434d-9688-3e1530eb1182}</destination>
+		</relationship>
+	</object>
+</objects>

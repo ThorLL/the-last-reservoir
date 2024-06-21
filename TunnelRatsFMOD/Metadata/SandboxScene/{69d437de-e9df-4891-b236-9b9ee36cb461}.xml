@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="SandboxScene" id="{69d437de-e9df-4891-b236-9b9ee36cb461}">
+		<property name="name">
+			<value>Test 3D sound</value>
+		</property>
+		<relationship name="folder">
+			<destination>{2b4121c3-a9d2-41b3-a7fc-6abb29c978ae}</destination>
+		</relationship>
+		<relationship name="markerTracks">
+			<destination>{c597eab6-f2dc-4e6d-92cd-41d7cff7b77d}</destination>
+		</relationship>
+		<relationship name="timeline">
+			<destination>{601af290-79e9-44c9-a968-6ea1cf41f18b}</destination>
+		</relationship>
+	</object>
+	<object class="MarkerTrack" id="{c597eab6-f2dc-4e6d-92cd-41d7cff7b77d}" />
+	<object class="Timeline" id="{601af290-79e9-44c9-a968-6ea1cf41f18b}" />
+</objects>

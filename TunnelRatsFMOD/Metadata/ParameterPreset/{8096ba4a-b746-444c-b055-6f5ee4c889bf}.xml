@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{8096ba4a-b746-444c-b055-6f5ee4c889bf}">
+		<property name="name">
+			<value>PlayerCrouch</value>
+		</property>
+		<relationship name="folder">
+			<destination>{31900e9e-a35a-4506-8f5b-e6202bf233eb}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{04697c07-32b0-4669-8553-62fddfac7262}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{04697c07-32b0-4669-8553-62fddfac7262}">
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

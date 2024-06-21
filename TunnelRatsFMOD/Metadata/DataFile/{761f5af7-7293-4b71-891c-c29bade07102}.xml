@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="DataFile" id="{761f5af7-7293-4b71-891c-c29bade07102}">
+		<property name="assetPath">
+			<value>Player Movement/Footsteps/Jump Land/Jump_Land_Dirt-006.wav.meta</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{e3622c02-0689-434d-9688-3e1530eb1182}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EventFolder" id="{edd2a39d-1e42-4edb-bbc7-b2878f002a9c}">
+		<property name="name">
+			<value>RingingEar</value>
+		</property>
+		<relationship name="folder">
+			<destination>{42042346-47af-4cd9-a774-9f19db12eb73}</destination>
+		</relationship>
+	</object>
+</objects>

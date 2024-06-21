@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerGroup" id="{f690e147-ca9a-4eee-812d-b78f3e7df06c}">
+		<property name="name">
+			<value>Ambisonics</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{6bf61825-bd23-43d7-8dd4-2b7b7b427aa4}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{2ffd2f7f-c553-431c-9c13-bf101afe0dae}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{2c8029fe-9731-4bb5-9eb2-86bc510842bb}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{6bf61825-bd23-43d7-8dd4-2b7b7b427aa4}">
+		<relationship name="effects">
+			<destination>{af85354b-91ef-4a89-88c8-39508335fdcd}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{2ffd2f7f-c553-431c-9c13-bf101afe0dae}" />
+	<object class="MixerBusFader" id="{af85354b-91ef-4a89-88c8-39508335fdcd}" />
+</objects>

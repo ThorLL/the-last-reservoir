@@ -30,24 +30,12 @@ This guide has only been tested on Windows!
     - [Substance-plugin](https://www.unrealengine.com/marketplace/en-US/product/substance-plugin)
 
 ## Guide
-1. Set Up Visual Studio: In the installer:
-	1. Under **Workloads** select
-		1. .NET desktop development
-		2. Desktop development in C++
-		3. Game development with C++
-		4. Windows applications development 
-	2. In the **Installation details** panel put a check in:
-		1. Universal Windows Platform tools
-		2. C++ (v143) Universal Windows Platform tools
-	3. Under Individual components select
-		1. .NET Framework 4.6.2 targeting pack
-		2. MSVC v143 - VS 2022 C++ x64/x86 build tools (V14.36-17.6)
-   4. Click Install
-2. Pull the Repo
+1. [Configure](https://learn.microsoft.com/en-us/visualstudio/install/import-export-installation-configurations?view=vs-2022#use-the-visual-studio-installer-ui-1) Visual Studio with the config file [.vsconfig](.vsconfig)
+2. Pull the Repo `git clone git@github.com:ThorLL/The-Last-Reservoir.git`
 3. Install FMOD for Unreal 5.3
    1. Download the version specific to your system [here](https://www.fmod.com/download#fmodengine)
    2. Extract the contents
-   3. Copy the contents into the [./Plugins](https://github.com/ThorLL/The-Last-Reservoir/tree/main/Plugins) folder
+   3. Copy the contents into the [./Plugins](./Plugins) folder
 4. Open the project in UE 5.3.2
 5. You should get the following prompt  
 	```text

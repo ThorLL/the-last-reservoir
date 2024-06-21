@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="DataFile" id="{c77d5f3a-c852-4e50-92fb-50d91b09d581}">
+		<property name="assetPath">
+			<value>Player Movement/Footsteps/Concrete/Walk_Concrete-008.wav.meta</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{e3622c02-0689-434d-9688-3e1530eb1182}</destination>
+		</relationship>
+	</object>
+</objects>

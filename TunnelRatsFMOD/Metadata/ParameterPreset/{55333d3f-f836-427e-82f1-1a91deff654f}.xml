@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{55333d3f-f836-427e-82f1-1a91deff654f}">
+		<property name="name">
+			<value>ImpactForce</value>
+		</property>
+		<relationship name="folder">
+			<destination>{31900e9e-a35a-4506-8f5b-e6202bf233eb}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{8a613f39-588d-4c0d-bbb6-830a29e3c98a}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{8a613f39-588d-4c0d-bbb6-830a29e3c98a}">
+		<property name="maximum">
+			<value>15</value>
+		</property>
+		<property name="isHeld">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

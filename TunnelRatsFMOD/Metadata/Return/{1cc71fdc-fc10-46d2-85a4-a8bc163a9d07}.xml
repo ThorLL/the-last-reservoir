@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerReturn" id="{1cc71fdc-fc10-46d2-85a4-a8bc163a9d07}">
+		<property name="name">
+			<value>Delay Interior</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{627507b6-e20e-47a5-9657-9e34a4ac92f3}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{aa121f90-22b7-4190-853a-b835f2523372}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{0f809172-33c5-48f6-a4f1-a29737df051d}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{627507b6-e20e-47a5-9657-9e34a4ac92f3}">
+		<relationship name="effects">
+			<destination>{dbd33b4a-1b9f-45dc-9ad2-51f676f2dc92}</destination>
+			<destination>{138ef6ba-ad35-4020-9b4f-112546c4e067}</destination>
+			<destination>{20e01e0c-9251-4e0a-b80d-c82b2170b46a}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{aa121f90-22b7-4190-853a-b835f2523372}" />
+	<object class="MixerBusFader" id="{dbd33b4a-1b9f-45dc-9ad2-51f676f2dc92}" />
+	<object class="MultibandEqEffect" id="{138ef6ba-ad35-4020-9b4f-112546c4e067}">
+		<property name="frequencyA">
+			<value>1300</value>
+		</property>
+	</object>
+	<object class="DelayEffect" id="{20e01e0c-9251-4e0a-b80d-c82b2170b46a}">
+		<property name="delay">
+			<value>92</value>
+		</property>
+		<property name="feedback">
+			<value>39.5</value>
+		</property>
+		<property name="level">
+			<value>-8</value>
+		</property>
+		<property name="dryLevel">
+			<value>-80</value>
+		</property>
+	</object>
+</objects>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{ce2e203e-c68e-4b83-94bf-240ab722f506}">
+		<property name="name">
+			<value>Puzzle1Failed</value>
+		</property>
+		<relationship name="folder">
+			<destination>{31900e9e-a35a-4506-8f5b-e6202bf233eb}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{6f07c19f-75b1-4382-8168-e698215c056f}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{6f07c19f-75b1-4382-8168-e698215c056f}">
+		<property name="minimum">
+			<value>101</value>
+		</property>
+		<property name="maximum">
+			<value>200</value>
+		</property>
+		<property name="initialValue">
+			<value>101</value>
+		</property>
+	</object>
+</objects>

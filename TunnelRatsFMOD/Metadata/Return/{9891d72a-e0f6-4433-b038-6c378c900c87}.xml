@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerReturn" id="{9891d72a-e0f6-4433-b038-6c378c900c87}">
+		<property name="overridingInputFormat">
+			<value>2</value>
+		</property>
+		<property name="name">
+			<value>Reverb Small</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{aa8c73f3-18cf-46e6-b113-e7dc4c1fd4cb}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{3a8af3ec-018e-4c2e-b92c-82866e6659cb}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{0f809172-33c5-48f6-a4f1-a29737df051d}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{aa8c73f3-18cf-46e6-b113-e7dc4c1fd4cb}">
+		<relationship name="effects">
+			<destination>{de049ce2-cf0c-431a-9d4a-785187264ca0}</destination>
+			<destination>{b4af3569-7571-4201-8a71-54812f185ca0}</destination>
+			<destination>{05cf4653-6676-4d84-8f69-8b0d7be85f31}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{3a8af3ec-018e-4c2e-b92c-82866e6659cb}" />
+	<object class="SFXReverbEffect" id="{de049ce2-cf0c-431a-9d4a-785187264ca0}">
+		<property name="decayTime">
+			<value>1300</value>
+		</property>
+		<property name="lateDelay">
+			<value>61</value>
+		</property>
+		<property name="HFReference">
+			<value>9500</value>
+		</property>
+		<property name="HFDecayRatio">
+			<value>44.5</value>
+		</property>
+		<property name="lowShelfGain">
+			<value>-22.5</value>
+		</property>
+		<property name="highCut">
+			<value>200</value>
+		</property>
+		<property name="wetLevel">
+			<value>6.5</value>
+		</property>
+		<property name="dryLevel">
+			<value>-80</value>
+		</property>
+	</object>
+	<object class="MixerBusFader" id="{b4af3569-7571-4201-8a71-54812f185ca0}" />
+	<object class="MultibandEqEffect" id="{05cf4653-6676-4d84-8f69-8b0d7be85f31}">
+		<property name="filterTypeB">
+			<value>9</value>
+		</property>
+		<property name="frequencyA">
+			<value>21999.9902</value>
+		</property>
+		<property name="frequencyB">
+			<value>301.852356</value>
+		</property>
+		<property name="qualityA">
+			<value>0.50773567</value>
+		</property>
+		<property name="qualityB">
+			<value>1.64999998</value>
+		</property>
+		<property name="gainB">
+			<value>-18</value>
+		</property>
+	</object>
+</objects>

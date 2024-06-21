@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{eb7cc634-445e-4d8f-9b35-e9a5d1b2cfe6}">
+		<property name="name">
+			<value>LandImpact</value>
+		</property>
+		<relationship name="folder">
+			<destination>{31900e9e-a35a-4506-8f5b-e6202bf233eb}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{88e0c1ae-70e2-4a0c-9376-70772f9d2b8b}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{88e0c1ae-70e2-4a0c-9376-70772f9d2b8b}">
+		<property name="maximum">
+			<value>15</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
