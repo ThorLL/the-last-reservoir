@@ -7,7 +7,7 @@ We offer an immersive narrative experience that intertwines gameplay with
 thought-provoking themes, presenting a unique speculative universe as a backdrop to
 explore real-world issues. Bringing this game to life, we wish to contribute to a meaningful conversation on the future we envision and the paths we choose, encouraging players to consider their impact on the world and the ethical dimensions of their choices.
 # The team - The Tunnel Rats
-Game Design Lead, Sound Designer & Narrative Designer Fríði Paulason Hentze
+Game Design Lead, Sound Designer & Narrative Designer Fríði Paulason Hentze [<img src="https://skillicons.dev/icons?i=github" alt="GitHub Icon" style="vertical-align: middle; height: 1em;">](https://github.com/blikka)
 
 Co-Producer, Level Designer & Narrative Designer Mathias Kladov
 
@@ -17,7 +17,7 @@ Level Designer & Narrative Designer: Peter Blomsgård Hansen
 
 Tech lead & Programmer: Gustav Sølvsteen Olesen [<img src="https://skillicons.dev/icons?i=github" alt="GitHub Icon" style="vertical-align: middle; height: 1em;">](https://github.com/GustavSO)
 
-Programmer: Kleanthis Michael Diakogiannis
+Programmer: Kleanthis Michael Diakogiannis [<img src="https://skillicons.dev/icons?i=github" alt="GitHub Icon" style="vertical-align: middle; height: 1em;">](https://github.com/kdiakogiannis)
 
 Programmer & Tooling: Thor Lyster Lind [<img src="https://skillicons.dev/icons?i=github" alt="GitHub Icon" style="vertical-align: middle; height: 1em;">](https://github.com/ThorLL)
 
