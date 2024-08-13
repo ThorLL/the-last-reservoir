@@ -9,7 +9,7 @@ explore real-world issues. Bringing this game to life, we wish to contribute to 
 # The team - The Tunnel Rats
 Game Design Lead, Sound Designer & Narrative Designer Fríði Paulason Hentze [<img src="https://skillicons.dev/icons?i=github" alt="GitHub Icon" style="vertical-align: middle; height: 1em;">](https://github.com/blikka)
 
-Co-Producer, Level Designer & Narrative Designer Mathias Kladov
+Co-Producer, Level Designer & Narrative Designer Mathias Kladov [<img src="https://skillicons.dev/icons?i=github" alt="GitHub Icon" style="vertical-align: middle; height: 1em;">](https://github.com/Mathiaselvis)
 
 Co-Producer & Narrative Designer: Magnus Holm Koch [<img src="https://skillicons.dev/icons?i=github" alt="GitHub Icon" style="vertical-align: middle; height: 1em;">](https://github.com/maghoko)
 
